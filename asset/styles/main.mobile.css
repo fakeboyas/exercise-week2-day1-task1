@@ -1,0 +1,11 @@
+@media only screen and (max-width: 500px) {
+    .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-photo p {
+        font-size: 14px;
+    }
+}
