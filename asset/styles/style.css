@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&display=swap");
+
 body {
-    max-width: 950px;
-    margin: auto;
+    font-family: "Hind Vadodara", sans-serif;
 }
 
 h2 {
@@ -11,14 +12,17 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    justify-content: space-around;
 }
 
 .list-photo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
     box-sizing: border-box;
+    border-radius: 10px;
+    width: 25%;
+    margin-bottom: 30px;
 }
 
 .list-photo img {
