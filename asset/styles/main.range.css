@@ -1,5 +1,9 @@
-@media screen and (min-width: 501px) and (max-width: 900px) {
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .list-photo {
+        width: 40%;
+    }
+
     .list-photo p {
-        width: 50%;
+        font-size: 14px;
     }
 }
