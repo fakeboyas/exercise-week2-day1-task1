@@ -1,6 +1,8 @@
 @media only screen and (max-width: 500px) {
     .photos {
-        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .list-photo p {
