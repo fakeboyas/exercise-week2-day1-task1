@@ -20,3 +20,8 @@ h2 {
     margin: 15px;
     box-sizing: border-box;
 }
+
+.list-photo img {
+    width: 150px;
+    height: 150px;
+}
